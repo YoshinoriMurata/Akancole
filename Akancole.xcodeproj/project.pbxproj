@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7CB5D7196FCD8E00005258 /* tanikaze.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CB5D4196FCD8E00005258 /* tanikaze.png */; };
+		8B7CB5D8196FCD8E00005258 /* z1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CB5D5196FCD8E00005258 /* z1.png */; };
+		8B7CB5D9196FCD8E00005258 /* z3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CB5D6196FCD8E00005258 /* z3.png */; };
+		8B7CB5DB196FCE3800005258 /* naka.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CB5DA196FCE3800005258 /* naka.png */; };
 		8B8C9946196E6B9C003296A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C9945196E6B9C003296A3 /* Foundation.framework */; };
 		8B8C9948196E6B9C003296A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C9947196E6B9C003296A3 /* CoreGraphics.framework */; };
 		8B8C994A196E6B9C003296A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C9949196E6B9C003296A3 /* UIKit.framework */; };
@@ -22,6 +26,9 @@
 		8B8C996A196E6B9C003296A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C9949196E6B9C003296A3 /* UIKit.framework */; };
 		8B8C9972196E6B9C003296A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C9970196E6B9C003296A3 /* InfoPlist.strings */; };
 		8B8C9974196E6B9C003296A3 /* AkancoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C9973196E6B9C003296A3 /* AkancoleTests.m */; };
+		8B8C997E196E6BDB003296A3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C997D196E6BDB003296A3 /* SpriteKit.framework */; };
+		8B8C9981196E6D6F003296A3 /* titleSKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C9980196E6D6F003296A3 /* titleSKScene.m */; };
+		8B8C9984196E6DAB003296A3 /* mainSKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C9983196E6DAB003296A3 /* mainSKScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7CB5D4196FCD8E00005258 /* tanikaze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanikaze.png; sourceTree = "<group>"; };
+		8B7CB5D5196FCD8E00005258 /* z1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z1.png; sourceTree = "<group>"; };
+		8B7CB5D6196FCD8E00005258 /* z3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z3.png; sourceTree = "<group>"; };
+		8B7CB5DA196FCE3800005258 /* naka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naka.png; sourceTree = "<group>"; };
 		8B8C9942196E6B9C003296A3 /* Akancole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akancole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8C9945196E6B9C003296A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B8C9947196E6B9C003296A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +66,11 @@
 		8B8C996F196E6B9C003296A3 /* AkancoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AkancoleTests-Info.plist"; sourceTree = "<group>"; };
 		8B8C9971196E6B9C003296A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B8C9973196E6B9C003296A3 /* AkancoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AkancoleTests.m; sourceTree = "<group>"; };
+		8B8C997D196E6BDB003296A3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8B8C997F196E6D6F003296A3 /* titleSKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleSKScene.h; sourceTree = "<group>"; };
+		8B8C9980196E6D6F003296A3 /* titleSKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleSKScene.m; sourceTree = "<group>"; };
+		8B8C9982196E6DAB003296A3 /* mainSKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainSKScene.h; sourceTree = "<group>"; };
+		8B8C9983196E6DAB003296A3 /* mainSKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainSKScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8C997E196E6BDB003296A3 /* SpriteKit.framework in Frameworks */,
 				8B8C9948196E6B9C003296A3 /* CoreGraphics.framework in Frameworks */,
 				8B8C994A196E6B9C003296A3 /* UIKit.framework in Frameworks */,
 				8B8C9946196E6B9C003296A3 /* Foundation.framework in Frameworks */,
@@ -103,6 +120,7 @@
 		8B8C9944196E6B9C003296A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B8C997D196E6BDB003296A3 /* SpriteKit.framework */,
 				8B8C9945196E6B9C003296A3 /* Foundation.framework */,
 				8B8C9947196E6B9C003296A3 /* CoreGraphics.framework */,
 				8B8C9949196E6B9C003296A3 /* UIKit.framework */,
@@ -119,6 +137,10 @@
 				8B8C9957196E6B9C003296A3 /* Main_iPhone.storyboard */,
 				8B8C995A196E6B9C003296A3 /* Main_iPad.storyboard */,
 				8B8C995D196E6B9C003296A3 /* ViewController.h */,
+				8B8C997F196E6D6F003296A3 /* titleSKScene.h */,
+				8B8C9980196E6D6F003296A3 /* titleSKScene.m */,
+				8B8C9982196E6DAB003296A3 /* mainSKScene.h */,
+				8B8C9983196E6DAB003296A3 /* mainSKScene.m */,
 				8B8C995E196E6B9C003296A3 /* ViewController.m */,
 				8B8C9960196E6B9C003296A3 /* Images.xcassets */,
 				8B8C994C196E6B9C003296A3 /* Supporting Files */,
@@ -129,6 +151,10 @@
 		8B8C994C196E6B9C003296A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B7CB5DA196FCE3800005258 /* naka.png */,
+				8B7CB5D4196FCD8E00005258 /* tanikaze.png */,
+				8B7CB5D5196FCD8E00005258 /* z1.png */,
+				8B7CB5D6196FCD8E00005258 /* z3.png */,
 				8B8C994D196E6B9C003296A3 /* Akancole-Info.plist */,
 				8B8C994E196E6B9C003296A3 /* InfoPlist.strings */,
 				8B8C9951196E6B9C003296A3 /* main.m */,
@@ -231,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7CB5D7196FCD8E00005258 /* tanikaze.png in Resources */,
 				8B8C995C196E6B9C003296A3 /* Main_iPad.storyboard in Resources */,
+				8B7CB5D8196FCD8E00005258 /* z1.png in Resources */,
+				8B7CB5D9196FCD8E00005258 /* z3.png in Resources */,
 				8B8C9961196E6B9C003296A3 /* Images.xcassets in Resources */,
 				8B8C9959196E6B9C003296A3 /* Main_iPhone.storyboard in Resources */,
+				8B7CB5DB196FCE3800005258 /* naka.png in Resources */,
 				8B8C9950196E6B9C003296A3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8C9984196E6DAB003296A3 /* mainSKScene.m in Sources */,
 				8B8C995F196E6B9C003296A3 /* ViewController.m in Sources */,
 				8B8C9956196E6B9C003296A3 /* AppDelegate.m in Sources */,
 				8B8C9952196E6B9C003296A3 /* main.m in Sources */,
+				8B8C9981196E6D6F003296A3 /* titleSKScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +502,7 @@
 				8B8C9979196E6B9C003296A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8C997A196E6B9C003296A3 /* Build configuration list for PBXNativeTarget "AkancoleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +511,7 @@
 				8B8C997C196E6B9C003296A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
